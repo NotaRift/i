@@ -1,3 +1,4 @@
+@import url("https://xcruxiex.github.io/themes/themes-cores/nocturnal.css");
 @import url("https://xcruxiex.github.io/themes/core/badges.css");
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 @import url("https://xcruxiex.github.io/themes/core/hljs.css"); /* Code Block Styles */
@@ -12,13 +13,10 @@
   --linkcolor: #6900d1;
   --backgroundCode: #10021f;
 
-  /* Better Hljs */
   --backgroundName: rgba(0, 0, 0, .2);
 
-  /* Gradients */
   --toggle-gradient: true;
 
-  /* Radial Status */
   --rs-small-spacing: 2px;
   --rs-large-spacing: 3px;
   --rs-width: 2px;
@@ -32,6 +30,5 @@
   --rs-invisible-color: #747f8d;
   --rs-phone-visible: block;
 
-  /* Custom Font */
   --customFont: 'gg sans', sans-serif;
 }
