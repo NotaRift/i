@@ -35,14 +35,8 @@
   --rs-streaming-color: #643da7;
   --rs-invisible-color: #747f8d;
   --rs-phone-visible: block;
-
-  /* Custom Font */
   --customFont: 'gg sans', sans-serif;
 }
-
-
-
-/* Custom Mail & Number */
 .container__75920[data-nav-anchor-key='account_info_email_setting'] {
   .stack_dbd263>.text-md\/medium_cf4812 {
     font-size: 0;
@@ -61,10 +55,6 @@
     }
   }
 }
-
-
-
-/**──────────║ Detailed TimeStamps ║──────────*/
 span.timestampInline_c19a55 time::before {
   content: "";
   font-size: 0.75rem;
@@ -113,4 +103,104 @@ span.timestampInline_c19a55 time::before {
         max-width: unset;
         > [class] > [class^=container] > [class^=container] { &:has(> [class^=heroAssetWrapper]) , > [class^=rewardDescriptionContainer] > [class^=textContainer] > [class^=subtitleRow] > [role="button"] { display: none; } }
     }
+}
+.vc-notification-root {
+  background: #8d063a46;
+  backdrop-filter: blur(40px);
+  border: 2px solid #b32b5838;
+  filter: drop-shadow(0px 3px 8px #000000);
+  transition: 0.5s ease;
+}
+.vc-notification-root:hover {
+  background: #c5084765;
+  border: 2px solid #b80d46a6;
+  transition: 0.3s ease;
+  transform: scale(99%) translateY(2%)  ;
+}
+.root__49fc1:has(.vc-settings-modal) {
+  border: 2px solid #df1256c5;
+  background: #c71e571e;
+  backdrop-filter: blur(50px);
+  transition: 0.1s ease;
+}
+      .fixedContent__409aa:after {
+        border-top-left-radius:  8px;
+        border-top-right-radius:  8px;
+      }
+      .content_e9e3ed {
+        background: #00000046 !important;
+      }
+      .contentHeader_e9e3ed {
+        background: transparent !important;
+        background-color: transparent !important;
+      } 
+      .credentialItem__6c75d {background: none !important;}
+      .credentialItem__6c75d:is(:first-child) {border:0px;}
+      .credentialList__6c75d {
+        background: #0c0c0c83 !important; 
+        border-radius: 8px; 
+        border: 1px solid var(--border-subtle);
+      }
+      .card__73069:not(.outline__73069) {background: none !important;}
+      .defaultKeybindGroup__740f2 {background: #2b2a2a63 !important;}
+      .vc-card-base {background: none !important;}
+      .vc-settings-quickActions-pill {background: #55555571 !important;}
+      .vc-settings-quickActions-pill:hover {background: #7e7e7e71 !important;}
+      .vc-addon-card {background: none !important;}
+      .appliedBoostContainer_ceb06a {
+        background: none !important; 
+        border: 1px solid var(--border-subtle);
+      }
+      .guildContainer__5dba5 {background: #3d3d3d52 !important;}
+      .boostContainer_ceb06a {background: #141414a1 !important;}
+      .wrapper__5b98e {background: #3d3d3d52 !important;}
+      .expandedProgressBarContainerSettingsPage_a61c56 {
+        background: none !important;
+        backdrop-filter: none !important;
+      }
+      .accountProfileCard__1fed1 {
+        background: #03030333 !important; 
+        border: 1px solid var(--border-subtle);
+      }
+      .background__1fed1 {
+        background: #1818183b !important; 
+        border: 1px solid var(--border-subtle);
+      }
+      .fieldList__1fed1 {background: none !important;} */
+      .cardPrimary__73069, .cardPrimary__73069.editable__73069 {
+        background: #03030356 !important;
+      }
+    .container__8a031 {
+        background: #14141494 !important; 
+        backdrop-filter: blur(10px);
+    }
+span[id^='message-username']>.vc-std-wrapper {
+  display: inline-flex;
+  padding-right: 3px;
+  text-indent: 0;
+  height: 0;
+  >.vc-text-base {
+    font-size: 0;
+    >span {
+      font-size: 1rem;
+      margin: 0;
+      font-family: 'Calibri';
+      &::before {
+        content: ' [';
+        margin-right: -0.2em;
+      }
+      &::after{content: ']';}
+    }
+  }
+}
+.sidebar__5e434>.guilds__5e434 {
+  &, +.vc-betterFolders-sidebar{
+    transition: 0.25s ease-in-out;
+    width: var(--space-8);
+    opacity: 0;
+  }
+  &:hover, &:hover+.vc-betterFolders-sidebar, +.vc-betterFolders-sidebar:hover {
+    width: var(--custom-guild-list-width);
+    opacity: 1 !important;
+  }
 }
