@@ -39,3 +39,78 @@
   /* Custom Font */
   --customFont: 'gg sans', sans-serif;
 }
+
+
+
+/* Custom Mail & Number */
+.container__75920[data-nav-anchor-key='account_info_email_setting'] {
+  .stack_dbd263>.text-md\/medium_cf4812 {
+    font-size: 0;
+    &::before {
+      content: 'Hidden Email';
+      font-size: 1rem;
+    }
+  }
+}
+.container__75920[data-nav-anchor-key='account_info_phone_setting'] {
+  .stack_dbd263>.text-md\/medium_cf4812 {
+    font-size: 0;
+    &::before {
+      content: 'Hidden Number';
+      font-size: 1rem;
+    }
+  }
+}
+
+
+
+/**──────────║ Detailed TimeStamps ║──────────*/
+span.timestampInline_c19a55 time::before {
+  content: "";
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.timestampInline_c19a55,
+.timestamp_c19a55 {
+  visibility: visible !important;
+}
+.cozy_c19a55:hover .timestampInline_c19a55,
+.cozy_c19a55:hover .timestamp_c19a55 {
+  visibility: visible !important;
+}
+[id^='message-content']>[class^='timestamp']>[class^='hiddenVisually_'] {
+  clip: unset;
+  clip-path: unset;
+  width: unset;
+  height: unset;
+  position: unset;
+
+  font-size: .625rem;
+  font-weight: var(--font-weight-normal);
+  line-height: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  &::before {
+    content: "✎ edited on - (";
+  }
+
+  &::after {
+    content: ")";
+  }
+}
+
+.edited_c19a55:not(.message-translate-indicator) {
+  display: none;
+}
+
+[class^=page] > [class^=container] > [class^=scroller] > [class^=contentSection] > [class^=content] {
+    max-width: unset;
+    > [class^=heroWrapper] { display: none; }
+    > [class^=headingWrapper] { margin-top: unset; }
+    > [class^=container] {
+        max-width: unset;
+        > [class] > [class^=container] > [class^=container] { &:has(> [class^=heroAssetWrapper]) , > [class^=rewardDescriptionContainer] > [class^=textContainer] > [class^=subtitleRow] > [role="button"] { display: none; } }
+    }
+}
