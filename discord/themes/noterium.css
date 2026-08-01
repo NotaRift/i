@@ -1,1 +1,37 @@
-@import url("https://xcruxiex.github.io/themes/themes-files/nocturnal.css");
+@import url("https://xcruxiex.github.io/themes/core/badges.css");
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+@import url("https://xcruxiex.github.io/themes/core/hljs.css"); /* Code Block Styles */
+@import url("https://DiscordStyles.github.io/RadialStatus/RadialStatus.css"); /* Radial Status */
+
+:root {
+  --mainColor: #6900d1;
+  --gradientColor01: #7800f1;
+  --gradientColor02: #bb00c5;
+  --backgroundColor01: #110022; 
+  --backgroundColor02: #0a0014;
+  --linkcolor: #6900d1;
+  --backgroundCode: #10021f;
+
+  /* Better Hljs */
+  --backgroundName: rgba(0, 0, 0, .2);
+
+  /* Gradients */
+  --toggle-gradient: true;
+
+  /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: var(--mainColor);
+  --rs-phone-color: var(--mainColor);
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+
+  /* Custom Font */
+  --customFont: 'gg sans', sans-serif;
+}
