@@ -96,7 +96,7 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
     --profile-gradient-start:  color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color));
     --profile-gradient-end:  color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-secondary-color));
     content: 
-   "Noterium Discord Theme \a" "By @Notarift on Github \a" "Version 2";
+   "Noterium v2 Discord Theme \a" "By @Notarift on Github";
     white-space: pre;
     inset: 0;
     padding: 10px;
