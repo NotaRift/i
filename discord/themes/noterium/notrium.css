@@ -1,0 +1,412 @@
+/*
+  Notrium Theme for Discord
+  Source: https://notarift.github.io/i/discord/themes/notrium.css
+  -----
+  Created by: NotaRift(github)
+  version: 1.1
+  -----
+  Credits to:
+  xcruxiex(github): (Nocturnal Theme: https://betterdiscord.app/themes/Nocturnal)
+  - https://betterdiscord.app/developers/cruxie
+  - https://github.com/xcruxiex
+
+  amozeo(github): (Compact Member List: https://github.com/amozeo/discord-css-snippets/blob/main/snippets/compact-memberlist.css)
+  - https://github.com/amozeo
+
+  clay.rip(discord): (Compact Server List: https://discord.com/channels/1015060230222131221/1028106818368589824/1461385316886777978,
+  Vencord discord: https://vencord.dev/discord)
+  - https://discord.com/channels/1015060230222131221/1028106818368589824/1461385316886777978
+  - improved by obsidianninja11(discord): https://discord.com/channels/1015060230222131221/1461385316886777978/1477351205398122636,
+  Vencord discord: https://vencord.dev/discord
+
+ fckyough(github):(Prettified & Expanded (edited) Message Timestamp:https://github.com/fckyough/css1/blob/main/vcSnippets/prettifiedAndExpandedEditedMessageTimestamp.css)
+ - https://github.com/fckyough
+
+ davart154(github): (Chat Bar Context Menu: https://davart154.github.io/Themes/Snippets/Chat%20Bar%20Context%20Menu/ChatContextMenuSource.css)
+ - https://github.com/davart154
+
+on1felix(discord) & squeezebtw(discord): (hovering message animation: https://discord.com/channels/1015060230222131221/1028106818368589824/1392958289184030722,
+  Vencord discord: https://vencord.dev/discord)
+  - https://discord.com/channels/1015060230222131221/1028106818368589824/1392958289184030722
+
+  abbie(github): (extra custom settings: https://abbie.github.io/discord-css/import.css)
+  - https://github.com/abbie
+
+  vitroid(discord): (Swap clan tag and role icon: https://discord.com/channels/1015060230222131221/1028106818368589824/1370866224027668573,
+  Vencord discord: https://vencord.dev/discord)
+  - https://discord.com/channels/1015060230222131221/1028106818368589824/1370866224027668573
+
+nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/1015060230222131221/1028106818368589824/1370395931484360756,
+  Vencord discord: https://vencord.dev/discord)
+  - https://discord.com/channels/1015060230222131221/1028106818368589824/1370395931484360756
+  - improved by maraudeur_mc5(discord): https://discord.com/channels/1015060230222131221/1370395931484360756/1530703867342487726,
+  Vencord discord: https://vencord.dev/discord
+
+  Augenbl1ck(github): (Compact User Area:https://raw.githubusercontent.com/Augenbl1ck/Discord-Styles/refs/heads/main/userArea.css)
+  - https://github.com/Augenbl1ck
+
+  blade04208(github): (Chat Bubbles: https://blade04208.github.io/ddex4/src/bubbles.css)
+  - https://github.com/blade04208
+
+  benzeel(discord): (translucent settings menu: https://discord.com/channels/1015060230222131221/1028106818368589824/1472383732479426653,
+  Vencord discord: https://vencord.dev/discord)
+  - improved by zgqnis(discord): https://discord.com/channels/1015060230222131221/1472383732479426653/1475821963820798155,
+  Vencord discord: https://vencord.dev/discord)
+
+  refact0r(discord): (hovering channel animation: https://discord.com/channels/1015060230222131221/1028106818368589824/1343833863918718986,
+  Vencord discord: https://vencord.dev/discord)
+  - https://discord.com/channels/1015060230222131221/1028106818368589824/1343833863918718986
+  - improved by NotaRift(github): https://github.com/NotaRift
+
+  moonself(github): (Role pill background colour: https://raw.githubusercontent.com/moonself/Vencord-Repos/refs/heads/main/Full%20Role%20Pills)
+  -https://github.com/moonself
+
+  computing_cat(discord): (Watermark: https://discord.com/channels/1015060230222131221/1028106818368589824/1343833863918718986,
+  Vencord discord: https://vencord.dev/discord)
+  - improved by NotaRift(github): https://github.com/NotaRift
+ -----
+*/
+/*Nocturnal theme by xcruxiex(github)*/
+@import url("https://xcruxiex.github.io/themes/themes-cores/nocturnal.css");
+@import url("https://xcruxiex.github.io/themes/core/badges.css");
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+@import url("https://xcruxiex.github.io/themes/core/hljs.css"); /* Code Block Styles */
+@import url("https://DiscordStyles.github.io/RadialStatus/RadialStatus.css"); /* Radial Status */
+
+/*Compact Member List by amozeo(github)*/
+@import url("https://raw.githubusercontent.com/amozeo/discord-css-snippets/refs/heads/main/snippets/compact-memberlist.css");
+
+/*Chat Bar Context Menu by davart154(github)*/
+@import url("https://davart154.github.io/Themes/Snippets/Chat%20Bar%20Context%20Menu/ChatContextMenuSource.css");
+
+/*extra custom settings by abbie(github)*/
+@import url('https://abbie.github.io/discord-css/import.css');
+
+/*Compact User Area by Augenbl1ck(github)*/
+@import url("https://raw.githubusercontent.com/Augenbl1ck/Discord-Styles/refs/heads/main/userArea.css");
+
+/*Chat Bubbles by blade04208(github)*/
+@import url("https://blade04208.github.io/ddex4/src/bubbles.css");
+
+/* Role pill background colour by moonself(github)*/
+@import url('https://raw.githubusercontent.com/moonself/Vencord-Repos/refs/heads/main/Full%20Role%20Pills');
+
+/*Watermark by computing_cat(discord) improved by NotaRift(github)*/
+.user-profile-sidebar::after {
+    --profile-gradient-start:  color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color));
+    --profile-gradient-end:  color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-secondary-color));
+    content: 
+   "Noterium Discord Theme \a" "By @Notarift on Github";
+    white-space: pre;
+    inset: 0;
+    padding: 10px;
+    color: rgb(115, 0, 255);
+    background: linear-gradient(var(--profile-gradient-start), var(--profile-gradient-start) var(--custom-user-profile-banner-height), var(--profile-gradient-end));
+    text-align: center;
+    font-size: 100%;
+}
+
+/* Status DM list by ukriu(discord) improved by maraudeur_mc5(discord)*/
+:root {
+    --gDM-online: linear-gradient(to right, rgb(68, 105, 68) , transparent);
+    --gDM-offline: linear-gradient(to right, rgb(66, 66, 66) , transparent);
+    --gDM-dnd: linear-gradient(to right, rgb(130,70,70) , transparent);
+    --gDM-idle: linear-gradient(to right, rgb(135, 105, 75) , transparent);
+    --gDM-streaming: linear-gradient(to right, rgb(63, 33, 88) , transparent);
+    --gDM-border-radius: 12px;
+}
+ul > li > [class*="interactive_"] {
+    border-radius: var(--gDM-border-radius);
+    margin: 0.3px;
+}
+[class*="link_"]:has([mask*="online"], [fill="#45a366"]) {
+    background: var(--gDM-online);
+}
+[class*="link_"]:has([mask*="offline"], [fill="#84858d"]) {
+    background: var(--gDM-offline);
+}
+[class*="link_"]:has([mask*="dnd"], [fill="#da3e44"]) {
+    background: var(--gDM-dnd);
+}
+[class*="link_"]:has([mask*="idle"], [fill="#ffc04e"]) {
+    background: var(--gDM-idle);
+}
+[class*="link_"]:has([mask*="streaming"], [fill="#9147ff"]) {
+    background: var(--gDM-streaming);
+}
+[class*="memberInner_"][class*="layout_"] {width: 100%}
+
+/*hovering channel animation by refact0r(discord) improved by NotaRift(github)*/
+:root {
+    --list-item-transition: 0.2s ease;
+}
+.wrapper__2ea32 .link__2ea32 {
+    transition: margin-left var(--list-item-transition);
+}
+.wrapper__2ea32:hover .link__2ea32 {
+    margin-left: 10px;
+}
+.unread__2ea32 {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    transition: var(--list-item-transition);
+}
+.wrapper__2ea32:hover .unread__2ea32 {
+    width: 12px;
+    height: 12px;
+    margin-top: -6px;
+    margin-left: 3px;
+    background-color: transparent;
+    background-size: 12px;
+    background-position: center;
+}
+
+/* translucent settings menu by benzeel improved by zgqnis(discord) */
+
+    /* settings menu scroll shadow */
+      .fixedContent__409aa:after {
+        border-top-left-radius:  8px;
+        border-top-right-radius:  8px;
+      }
+    /* settings menu main BG */
+      .content_e9e3ed {
+        background: #00000046 !important;
+      }
+    /* FIX: Header Transparente */
+      .contentHeader_e9e3ed {
+        background: transparent !important;
+        background-color: transparent !important;
+      } 
+    /* Security Keys BG */
+      .credentialItem__6c75d {background: none !important;}
+      .credentialItem__6c75d:is(:first-child) {border:0px;}
+      .credentialList__6c75d {
+        background: #0c0c0c83 !important; 
+        border-radius: 8px; 
+        border: 1px solid var(--border-subtle);
+      }
+    /* krisp bg */
+      .card__73069:not(.outline__73069) {background: none !important;}
+    /* keybinding bgs */
+      .defaultKeybindGroup__740f2 {background: #2b2a2a63 !important;}
+    /* vencord quick actions */
+      .vc-card-base {background: none !important;}
+      .vc-settings-quickActions-pill {background: #55555571 !important;}
+      .vc-settings-quickActions-pill:hover {background: #7e7e7e71 !important;}
+    /* Plugins */
+      .vc-addon-card {background: none !important;}
+    /* server boosts */
+      .appliedBoostContainer_ceb06a {
+        background: none !important; 
+        border: 1px solid var(--border-subtle);
+      }
+      .guildContainer__5dba5 {background: #3d3d3d52 !important;}
+      .boostContainer_ceb06a {background: #141414a1 !important;}
+    /* server boost faq */
+      .wrapper__5b98e {background: #3d3d3d52 !important;}
+    /* Share nitro */
+      .expandedProgressBarContainerSettingsPage_a61c56 {
+        background: none !important;
+        backdrop-filter: none !important;
+      }
+    /* my account */
+      .accountProfileCard__1fed1 {
+        background: #03030333 !important; 
+        border: 1px solid var(--border-subtle);
+      }
+      .background__1fed1 {
+        background: #1818183b !important; 
+        border: 1px solid var(--border-subtle);
+      }
+      .fieldList__1fed1 {background: none !important;}
+    /* appearance */
+      .cardPrimary__73069, .cardPrimary__73069.editable__73069 {
+        background: #03030356 !important;
+      }
+    /* "view reactions" popup & settings menu */
+    .container__8a031 {
+        background: #14141494 !important; 
+        backdrop-filter: blur(10px);
+    }
+
+/*Collapse clan tags to icon by nd.mt(discrod) improved by maraudeur_mc5(discord)*/
+.chipletContainerInner__10651 .text__10651 .tagText__10651 {
+  display: inline-block;
+  line-height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 0;
+  will-change: max-width, margin;
+  transition: max-width 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+              margin 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.chipletContainerInner__10651 {
+  background: transparent !important;
+  padding: 0;
+}
+
+.chipletContainerInner__10651:hover .text__10651 .tagText__10651 {
+  max-width: unset;
+  transition-delay: 0.08s;
+}
+
+.chipletContainerInner__10651 .text__10651 img.badge__10651 {
+  margin-right: 0;
+  margin-bottom: auto !important;
+  transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+              margin 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.chipletContainerInner__10651:hover > span > img.badge__10651 {
+  transform: rotateZ(360deg);
+  margin-right: .6ch;
+  transition-delay: 0.08s;
+}
+
+.chipletContainerInner__10651:hover ~ .tagText__10651 {
+  display: block;
+  clear: both;
+  margin-top: .5ch;
+}
+
+.guildTagContainer__26b1f {
+  border: none;
+  height: auto;
+}
+
+/*Swap clan tag and role icon by vitroid(discord)*/
+[class^="headerText"] {
+  display: inline-flex;
+}
+[class^="headerText"] > span:has([class^="roleIcon"]) {
+  order: 2;
+}
+[class^="headerText"] > span:has([class^="chipletContainerInner"])  {
+  order: 3;
+}
+[class^="headerText"] > span:is([class^="username"]) {
+  order: 1;
+}
+[class^="headerText"] > span[style="display: none;"] {
+  order: 4;
+}
+[class^="headerText"] > .vc-message-decorations-wrapper {
+  order: 5;
+}
+[class^="headerText"] > span:has(> [class^="newMemberBadge"]) {
+  order: 6;
+}
+[class^="headerText"] > span:is([class^="botTag"]) {
+  order: 7;
+}
+
+/*hovering message animation by on1felix(discord) & squeezebtw(discord)*/
+[data-list-item-id*="message"],
+[class*="messageListItem"],
+[id*="message-"],
+li[class*="messageListItem"] {
+    position: relative;
+    border-radius: var(--wave-border-radius);
+    transition: all 0.3s ease;
+}
+[data-list-item-id*="message"]:hover,
+[class*="messageListItem"]:hover,
+li[class*="messageListItem"]:hover {
+    transform: translateX(6px);
+}
+
+/*Prettified & Expanded (edited) Message Timestamp by fckyough(github) improved by NotaRift(github)*/
+span.timestampInline_c19a55 time::before {
+  content: "";
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.timestampInline_c19a55,
+.timestamp_c19a55 {
+  visibility: visible !important;
+}
+.cozy_c19a55:hover .timestampInline_c19a55,
+.cozy_c19a55:hover .timestamp_c19a55 {
+  visibility: visible !important;
+}
+[id^='message-content']>[class^='timestamp']>[class^='hiddenVisually_'] {
+  clip: unset;
+  clip-path: unset;
+  width: unset;
+  height: unset;
+  position: unset;
+
+  font-size: .625rem;
+  font-weight: var(--font-weight-normal);
+  line-height: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  &::before {
+    content: "✎ edited on - (";
+  }
+
+  &::after {
+    content: ")";
+  }
+}
+
+/*Only show the server list on hover by clay.rip(discord) and improved by obsidianninja11(discord)*/
+.sidebar__5e434>.guilds__5e434 {
+  &, +.vc-betterFolders-sidebar{
+    transition: 0.25s ease-in-out;
+    width: var(--space-8);
+    opacity: 0;
+  }
+  &:hover, &:hover+.vc-betterFolders-sidebar, +.vc-betterFolders-sidebar:hover {
+    width: var(--custom-guild-list-width);
+    opacity: 1 !important;
+  }
+}
+
+/*Basic Theme Settings*/
+:root {
+  /* Main Colors */
+  --mainColor: #6900d1;
+  --gradientColor01: #7800f1;
+  --gradientColor02: #bb00c5;
+  --backgroundColor01: #110022; 
+  --backgroundColor02: #0a0014;
+  --linkcolor: #6900d1;
+  --backgroundCode: #10021f;
+
+  /* Better Hljs */
+  --backgroundName: rgba(0, 0, 0, .2);
+
+  /* Gradients */
+  --toggle-gradient: true;
+
+  /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: var(--mainColor);
+  --rs-phone-color: var(--mainColor);
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+
+  /* Custom Font */
+  --customFont: 'gg sans', sans-serif;
+
+  /* Role Pill Settings */
+    --pill-roundness: 16px;
+    --pill-opacity: 30%;
+    --pill-border: false; /* "true" to enable */
+
+    /*settings*/
+      --\\--hide-user-activity: true;
+}
