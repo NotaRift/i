@@ -6,9 +6,9 @@ A super dark discord theme with a lot of settings to play with
 (install with https://notarift.github.io/i/discord/themes/noterium.css in your online themes tab on https://vencord.dev)
 
 ### 3 Builts
-stable: v2 (Just works out of the box)
+Stable: v2 (Just works out of the box)
 
-custom: full control | v3(WIP)
+Custom: full control | v3(WIP)
 
 Devbuilt: to get early update but they break quicker | 2.1(WIP)
 
