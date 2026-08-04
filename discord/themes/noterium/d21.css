@@ -68,18 +68,18 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
 */
 /*Nocturnal theme by xcruxiex(github)*/
 @import url("https://notarift.github.io/i/discord/snippets/Nocturnal.css");
-@import url("https://DiscordStyles.github.io/RadialStatus/RadialStatus.css"); /* Radial Status */
+@import url("https://notarift.github.io/i/discord/snippets/radial-status.css");
 
 /*Compact Member List by amozeo(github)*/
 @import url("https://notarift.github.io/i/discord/snippets/compact-memberlist.css");
 /*Chat Bar Context Menu by davart154(github)*/
 @import url("https://notarift.github.io/i/discord/snippets/chat-bar-buttons-at-menu.css");
 
-/*extra custom settings by abbie(github)*/
-@import url('https://abbie.github.io/discord-css/import.css');
+/*Extra custom settings by abbie(github)*/
+@import url('https://notarift.github.io/i/discord/snippets/extra-settings.css');
 
 /*Compact User Area by Augenbl1ck(github)*/
-@import url("https://raw.githubusercontent.com/Augenbl1ck/Discord-Styles/refs/heads/main/userArea.css");
+@import url("https://notarift.github.io/i/discord/snippets/compact-user-area.css");
 
 /*Chat Bubbles by blade04208(github)*/
 @import url("https://blade04208.github.io/ddex4/src/bubbles.css");

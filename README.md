@@ -10,7 +10,7 @@ stable: v2 (Just works out of the box)
 custom: full control | v3(WIP)
 Devbuilt: to get early update but they break quicker | 2.1(WIP)
 
-### Settings (for devbuilt only some stuff can and will be broken or get removed in a later version):
+### Settings (For devbuilt only for now. Some stuff can and will be broken or get removed in a later version):
 1. --compact-member-list-transition-definition:
 2. --fix-minor-icon-misalignments:
 3. --prevent-sidebar-resizing
@@ -50,6 +50,7 @@ Devbuilt: to get early update but they break quicker | 2.1(WIP)
 37. --compact-context-menu
 38. --compact-input-box
 39. --compact-title-bar
-40. 
+40. --user-area-border-width
+41. --user-area-border-color
 
 
