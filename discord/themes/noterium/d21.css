@@ -67,10 +67,7 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
  -----
 */
 /*Nocturnal theme by xcruxiex(github)*/
-@import url("https://xcruxiex.github.io/themes/themes-cores/nocturnal.css");
-@import url("https://xcruxiex.github.io/themes/core/badges.css");
-@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
-@import url("https://xcruxiex.github.io/themes/core/hljs.css"); /* Code Block Styles */
+@import url("https://notarift.github.io/i/discord/snippets/Nocturnal.css");
 @import url("https://DiscordStyles.github.io/RadialStatus/RadialStatus.css"); /* Radial Status */
 
 /*Compact Member List by amozeo(github)*/
