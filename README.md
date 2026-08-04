@@ -55,5 +55,7 @@ Devbuilt: Get early updates, but they are experimental | 2.1(WIP)
 39. --compact-title-bar
 40. --user-area-border-width
 41. --user-area-border-color
-
+42. --pill-roundness
+43. --pill-opacity
+44. --pill-border
 

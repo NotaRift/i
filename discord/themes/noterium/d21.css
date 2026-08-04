@@ -81,10 +81,10 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
 @import url("https://notarift.github.io/i/discord/snippets/compact-user-area.css");
 
 /*Chat Bubbles by blade04208(github)*/
-@import url("https://blade04208.github.io/ddex4/src/bubbles.css");
+@import url("https://notarift.github.io/i/discord/snippets/bubbles.css");
 
 /* Role pill background colour by moonself(github)*/
-@import url('https://raw.githubusercontent.com/moonself/Vencord-Repos/refs/heads/main/Full%20Role%20Pills');
+@import url('https://notarift.github.io/i/discord/snippets/role-pills.css');
 
 /*Watermark by computing_cat(discord) improved by NotaRift(github)*/
 .user-profile-sidebar::after {
