@@ -8,9 +8,9 @@ A super dark discord theme with a lot of settings to play with
 ### 3 Builts
 Stable: v2 (Just works out of the box)
 
-Custom: full control | v3(WIP)
+Custom: Full control | v3(WIP)
 
-Devbuilt: to get early update but they break quicker | 2.1(WIP)
+Devbuilt: To get early updates, but they are experimental | 2.1(WIP)
 
 
 ### Settings (For devbuilt only for now. Some stuff can and will be broken or get removed in a later version):
