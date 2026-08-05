@@ -67,8 +67,6 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
  -----
 */
 
-@import url("https://notarift.github.io/i/discord/themes/noterium/stable-settings.css");
-
 /*Nocturnal theme by xcruxiex(github)*/
 @import url("https://notarift.github.io/i/discord/snippets/nocturnal.css");
 
@@ -89,6 +87,8 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
 
 /* Role pill background colour by moonself(github)*/
 @import url('https://notarift.github.io/i/discord/snippets/role-pills.css');
+
+@import url("https://notarift.github.io/i/discord/themes/noterium/stable-settings.css");
 
 /*Watermark by computing_cat(discord) improved by NotaRift(github)*/
 .user-profile-sidebar::after {
