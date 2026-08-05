@@ -1,5 +1,5 @@
 .contents_c19a55>.messageContent_c19a55 {
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgba(162, 0, 255, 0.304);
   width: fit-content;
   margin-left: 0px !important;
   padding-left: 0px !important;
@@ -51,12 +51,6 @@
       left: auto !important;
       right: calc(var(--custom-message-margin-horizontal) - var(--custom-message-avatar-decoration-size) / 2 + var(--custom-message-avatar-size) / 2);
     }
-
-    .contents_c19a55>.messageContent_c19a55 {
-      border-radius: 10px 0px 0px 10px;
-      background-color: var(--brand-500);
-    }
-
     &.groupStart__5126c .messageContent_c19a55 {
       border-radius: 10px 10px 0px 10px;
     }
