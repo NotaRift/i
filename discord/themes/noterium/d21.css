@@ -106,14 +106,7 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
 }
 
 /* Status DM list by ukriu(discord) improved by maraudeur_mc5(discord)*/
-:root {
-    --gDM-online: linear-gradient(to right, rgb(68, 105, 68) , transparent);
-    --gDM-offline: linear-gradient(to right, rgb(66, 66, 66) , transparent);
-    --gDM-dnd: linear-gradient(to right, rgb(130,70,70) , transparent);
-    --gDM-idle: linear-gradient(to right, rgb(135, 105, 75) , transparent);
-    --gDM-streaming: linear-gradient(to right, rgb(63, 33, 88) , transparent);
-    --gDM-border-radius: 12px;
-}
+
 ul > li > [class*="interactive_"] {
     border-radius: var(--gDM-border-radius);
     margin: 0.3px;
@@ -136,9 +129,7 @@ ul > li > [class*="interactive_"] {
 [class*="memberInner_"][class*="layout_"] {width: 100%}
 
 /*hovering channel animation by refact0r(discord) improved by NotaRift(github)*/
-:root {
-    --list-item-transition: 0.2s ease;
-}
+
 .wrapper__2ea32 .link__2ea32 {
     transition: margin-left var(--list-item-transition);
 }
