@@ -29,7 +29,7 @@
   --rs-invisible-color: #747f8d;
   --rs-phone-visible: block;
 
-  /* Custom Font */
+  /* Custom Font google fonts*/
   --customFont: 'gg sans', sans-serif;
 
   /* Role Pill Settings */
@@ -37,8 +37,38 @@
     --pill-opacity: 30%;
     --pill-border: false; /* "true" to enable */
 
-  /*settings*/
-    --\\--hide-server-activity: true;
-    --\\--hide-user-activity: true;
-    --\\--hide-hover-quick-reactions: true;
+  /*Extra settings*/
+  --\\--compact-title-bar: false;
+  --\\--compact-input-box: false;
+  --\\--compact-context-menu: false;
+  --\\--compact-user-area: false;
+  --\\--compact-channel-categories: false;
+  --\\--compact-server-list: false;
+  --\\--hide-nameplates: false;
+  --\\--hide-guild-tags: false;
+  --\\--hide-profile-effects: false;
+  --\\--hide-avatar-decorations: false;
+  --\\--hide-gradient-glow-usernames: false;
+  --\\--hide-server-boost-goal: true;
+  --\\--hide-server-activity: true;
+  --\\--hide-user-activity: true;
+  --\\--hide-context-menu-quick-reactions: true;
+  --\\--hide-hover-quick-reactions: true;
+  --\\--hide-image-edit-button: true;
+  --\\--hide-gif-button: false;
+  --\\--hide-sticker-button: false;
+  --\\--hide-emoji-button: false;
+  --\\--hide-apps-button: true;
+  --\\--hide-gift-button: true;
+  --\\--hide-help-button: true;
+  --\\--hide-shop-button: false;
+  --\\--hide-nitro-button: true;
+  --\\--hide-active-now: true;
+  --\\--hide-nitro-upsells: true;
+  --\\--hide-vencord-desktop-platform-indicator: true;
+  --\\--hide-cluttery-badges: false;
+  --\\--darker-scrollbar: true;
+  --\\--darker-hovered-message: true;
+  --\\--prevent-sidebar-resizing: false;
+  --\\--fix-minor-icon-misalignments: true;
 }
