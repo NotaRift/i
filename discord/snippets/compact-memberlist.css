@@ -19,42 +19,6 @@
     padding-left: 1px;
 }
 
-/* group separator */
-
-.membersGroup_c8ffbb,
-.membersGroup_c8ffbb [style] {
-    transition: color var(--compact-member-list-transition-definition, 0.25s ease-out);
-}
-
-.membersGroup_c8ffbb::before {
-    content: "";
-    position: absolute;
-    width: 24px;
-    height: 2px;
-    left: 20px;
-    margin-top: 10px;
-    background-color: var(--channels-default);
-    transition: background-color var(--compact-member-list-transition-definition, 0.25s ease-out);
-}
-
-.content_f75fb0 > :is(.container_c8ffbb, .membersWrap_c8ffbb) > :not(:hover) .membersGroup_c8ffbb,
-.content_f75fb0 > :is(.container_c8ffbb, .membersWrap_c8ffbb) > :not(:hover) .membersGroup_c8ffbb [style] {
-    color: transparent !important;
-}
-
-.content_f75fb0 > :is(.container_c8ffbb, .membersWrap_c8ffbb) > :hover .membersGroup_c8ffbb::before {
-    background-color: transparent;
-}
-
-.membersGroup_c8ffbb img {
-    translate: 8px -8px;
-    transition: translate var(--compact-member-list-transition-definition, 0.25s ease-out);
-}
-
-.content_f75fb0 > :is(.container_c8ffbb, .membersWrap_c8ffbb) > :hover .membersGroup_c8ffbb img {
-    translate: 0 0;
-}
-
 /* member */
 
 .member__5d473 .memberInner__5d473 > :not(.avatar__91a9d) {
