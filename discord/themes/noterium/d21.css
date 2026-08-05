@@ -71,6 +71,7 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
 
 /*Compact Member List by amozeo(github)*/
 @import url("https://notarift.github.io/i/discord/snippets/compact-memberlist.css");
+
 /*Chat Bar Context Menu by davart154(github)*/
 @import url("https://notarift.github.io/i/discord/snippets/chat-bar-buttons-at-menu.css");
 
@@ -91,7 +92,7 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
     --profile-gradient-start:  color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-primary-color));
     --profile-gradient-end:  color-mix(in oklab, var(--profile-gradient-overlay-color) 100%, var(--profile-gradient-secondary-color));
     content: 
-   "Noterium v2 Discord Theme \a" "By @Notarift on Github";
+   "Noterium DevBuilt 2.1\a" "By @Notarift on Github";
     white-space: pre;
     inset: 0;
     padding: 10px;
@@ -403,5 +404,5 @@ span.timestampInline_c19a55 time::before {
     --pill-border: false; /* "true" to enable */
 
     /*settings*/
-      --\\--hide-user-activity: true;
+      --hide-user-activity: true;
 }
