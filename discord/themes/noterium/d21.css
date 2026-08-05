@@ -406,4 +406,5 @@ span.timestampInline_c19a55 time::before {
   /*settings*/
     --\\--hide-server-activity: true;
     --\\--hide-user-activity: true;
+    --\\--hide-hover-quick-reactions: true;
 }
