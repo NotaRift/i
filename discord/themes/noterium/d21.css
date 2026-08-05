@@ -403,6 +403,7 @@ span.timestampInline_c19a55 time::before {
     --pill-opacity: 30%;
     --pill-border: false; /* "true" to enable */
 
-    /*settings*/
-      --hide-user-activity: true;
+  /*settings*/
+    --\--hide-server-activity: true;
+    --\--hide-user-activity: true;
 }
