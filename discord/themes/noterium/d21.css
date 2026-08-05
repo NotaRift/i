@@ -66,6 +66,9 @@ nd.mt(discrod): (Collapse clan tags to icon: https://discord.com/channels/101506
   - improved by NotaRift(github): https://github.com/NotaRift
  -----
 */
+
+@import url("https://notarift.github.io/i/discord/themes/noterium/stable-settings.css");
+
 /*Nocturnal theme by xcruxiex(github)*/
 @import url("https://notarift.github.io/i/discord/snippets/nocturnal.css");
 
@@ -362,49 +365,4 @@ span.timestampInline_c19a55 time::before {
     width: var(--custom-guild-list-width);
     opacity: 1 !important;
   }
-}
-
-/*Basic Theme Settings*/
-:root {
-  /* Main Colors */
-  --mainColor: #6900d1;
-  --gradientColor01: #7800f1;
-  --gradientColor02: #bb00c5;
-  --backgroundColor01: #110022; 
-  --backgroundColor02: #0a0014;
-  --linkcolor: #6900d1;
-  --backgroundCode: #10021f;
-
-  /* Better Hljs */
-  --backgroundName: rgba(0, 0, 0, .2);
-
-  /* Gradients */
-  --toggle-gradient: true;
-
-  /* Radial Status */
-  --rs-small-spacing: 2px;
-  --rs-large-spacing: 3px;
-  --rs-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: var(--mainColor);
-  --rs-phone-color: var(--mainColor);
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #747f8d;
-  --rs-phone-visible: block;
-
-  /* Custom Font */
-  --customFont: 'gg sans', sans-serif;
-
-  /* Role Pill Settings */
-    --pill-roundness: 16px;
-    --pill-opacity: 30%;
-    --pill-border: false; /* "true" to enable */
-
-  /*settings*/
-    --\\--hide-server-activity: true;
-    --\\--hide-user-activity: true;
-    --\\--hide-hover-quick-reactions: true;
 }
